@@ -25,7 +25,7 @@ const socialMediaLinks = {
   github: "https://github.com/mzaintariqdev",
   linkedin: "https://www.linkedin.com/in/muhammad-zain-tariq/",
   gmail: "mzaintariqdev@gmail.com",
- // gitlab: "https://gitlab.com/saadpasta",
+  // gitlab: "https://gitlab.com/saadpasta",
   medium: "https://mzaintariq.medium.com/",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
@@ -38,13 +38,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS"
-    )
+    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+    "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
+    "⚡ Integration of third party services such as Firebase",
+    "⚡ Developing mobile apps using React native"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -87,18 +84,22 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Nosql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Typescript",
+      fontAwesomeClassname: "fas fa-code"
     }
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -112,16 +113,7 @@ const educationInfo = {
       schoolName: "University of Central Punjab",
       logo: require("./assets/images/ucplogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "October 2017 - July 2021",
-    },
-    {
-      schoolName: "Udacity",
-      logo: require("./assets/images/udacitylogo.png"),
-      subHeader: "Nanodegree of Predictive Analytics for Business",
-      duration: "December 2020 - September 2021",
-      // desc:
-      //   "I was Selected in Top 10% in the program and Awarded a Scholarship for this degree ",
-      // descBullets: ["In this degree i am learning data Analytics using Alteryx And Tableau"]
+      duration: "October 2017 - July 2021"
     }
   ]
 };
@@ -137,11 +129,15 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Project Planning",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -153,18 +149,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Junior Software Engineer",
-      company: "CevianTech",
-      companylogo: require("./assets/images/ceviantech.png"),
-      date: "January 2020 – Present",
+      role: "Software Engineer",
+      company: "Walturn",
+      companylogo: require("./assets/images/walturn.png"),
+      date: "10 August 2021 – Present",
       desc:
-        "I work as a Software Engineer for the Full-stack development.",
+        "I work as a Software Engineer in a Remote Role for New york Based Company for the Full-stack Web development and for mobile engineering.",
       descBullets: [
-      "My tasks are following",
-      "1.Designing frontend using reactjs es6 redux",
-      "2.Developing backend using javascript libraries and python django"
+        "My tasks are following",
+        "1.Developing UI/UX with the help of Reactjs and other Frontend Libraries",
+        "2.Developing backend using Nodejs using expressjs, nestjs and others",
+        "3. Project Planning",
+        "4. Client Handling"
       ]
-     }//,
+    } //,
     // {
     //   role: "Front-End Developer",
     //   company: "Quora",
@@ -235,26 +233,16 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Udacity  Bertelsmann Technology Scholarship winner for Predictive Analytics for Business",
+      title: "GitLab Certified Associate",
       subtitle:
-        "I won this nandogree scholarship after succcessfully completing the first phase in which only 1500 candidates were selected from 15000",
-      image: require("./assets/images/scholarship.png"),
+        "Individuals who earn GitLab Certified Associate certification are able to explain what GitLab is and why teams use it, perform basic Git commands for branching, merging, and remote work, and apply fundamental concepts and skills using GitLab within the DevOps lifecycle.",
+      image: require("./assets/images/gitlab.png"),
       footerLink: [
-        // {
-        //   name: "Certification",
-        //   url:
-        //     "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        // },
-        // {
-        //   name: "Award Letter",
-        //   url:
-        //     "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        // },
-        // {
-        //   name: "Google Code-in Blog",
-        //   url:
-        //     "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        // }
+        {
+          name: "Badge Url",
+          url:
+            "https://badgr.com/public/assertions/k_X7kjefQPG-y5Z6z6pr6A?identity__email=mzaintariqdev@gmail.com"
+        }
       ]
     },
     {
@@ -264,12 +252,12 @@ const achievementSection = {
       image: require("./assets/images/aviatrix.png"),
       footerLink: [
         {
-          name: "credentials Url",
+          name: "Badge Url",
           url:
             "https://www.credly.com/badges/1f4a9a8b-78f4-4f59-a988-cec9ec2feef3/public_url"
         }
       ]
-    },
+    }
 
     // {
     //   title: "PWA Web App Developer",
@@ -297,13 +285,15 @@ const blogSection = {
   blogs: [
     {
       url:
-        "https://mzaintariq.medium.com/get-started-with-redisinsight-on-windows-10-b925116e0190",
-      title: "Get Started With RedisInsight on Windows 10",
+        "https://mzaintariq.medium.com/getting-started-with-reveal-js-create-first-stunning-presentations-on-the-web-35f8b3e65e2e",
+      title:
+        "Getting Started With Reveal.js Create First Stunning Presentations on the Web",
       description:
-        "In this Blog, You will Learn What is RedisInsight Setup RedisInsight on Windows 10 Create First Database on RedisInsight"
+        "In this Blog, You will Learn What is reveal.js? install reveal.js and Host reveal.js presentation on Firebase."
     },
     {
-      url: "https://mzaintariq.medium.com/form-validation-using-formik-yup-in-react-js-c32cd917bf5",
+      url:
+        "https://mzaintariq.medium.com/form-validation-using-formik-yup-in-react-js-c32cd917bf5",
       title: "Form Validation using Formik & Yup in React.js",
       description:
         "A Tutorial to Validate a Form using Formik and Yup in React.js."
@@ -345,10 +335,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me ☎️",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3144117288",
+  // number: "+92-3144117288",
   email_address: "mzaintariqdev@gmail.com"
 };
 

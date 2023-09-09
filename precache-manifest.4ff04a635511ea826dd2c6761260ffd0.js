@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "810d3a78b3879db3a877f954b8415fc2",
+    "revision": "7c47f9d14cc8505e82bda12175c75773",
     "url": "/index.html"
   },
   {
-    "revision": "0c4008cee9c57761f8bf",
+    "revision": "cf78c771901884f0fb75",
     "url": "/static/css/3.3a26ebde.chunk.css"
   },
   {
-    "revision": "35d83ad062ee3255017a",
+    "revision": "418ead94d20aad8b2c9e",
     "url": "/static/css/4.ea3dbbf2.chunk.css"
   },
   {
-    "revision": "6004e1744481ea44893e",
+    "revision": "6b743768b8b0a9562cf5",
     "url": "/static/css/main.e6dc66e5.chunk.css"
   },
   {
-    "revision": "a7a46d5c82bf6f901a4e",
-    "url": "/static/js/2.92523250.chunk.js"
+    "revision": "1abbedf4f4740c02060f",
+    "url": "/static/js/2.6dcfdd2e.chunk.js"
   },
   {
     "revision": "b9941b26ce7f87a25d1a3bc0d5ae97bc",
-    "url": "/static/js/2.92523250.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6dcfdd2e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c4008cee9c57761f8bf",
-    "url": "/static/js/3.1c933d17.chunk.js"
+    "revision": "cf78c771901884f0fb75",
+    "url": "/static/js/3.774d7ef1.chunk.js"
   },
   {
-    "revision": "35d83ad062ee3255017a",
-    "url": "/static/js/4.96838317.chunk.js"
+    "revision": "418ead94d20aad8b2c9e",
+    "url": "/static/js/4.ddd8dbbb.chunk.js"
   },
   {
-    "revision": "6004e1744481ea44893e",
-    "url": "/static/js/main.d76a7dab.chunk.js"
+    "revision": "6b743768b8b0a9562cf5",
+    "url": "/static/js/main.3292353a.chunk.js"
   },
   {
-    "revision": "a097927d240c16261b9d",
-    "url": "/static/js/runtime-main.c2cc74b2.js"
+    "revision": "1ff8015a5b1dea74928d",
+    "url": "/static/js/runtime-main.ea5d21c4.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/developerActivity.59389695.svg"
   },
   {
+    "revision": "2e9e0059f9292646644ee2dae9a17749",
+    "url": "/static/media/gitlab.2e9e0059.png"
+  },
+  {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/static/media/manOnTable.52be3144.svg"
   },
@@ -66,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
     "url": "/static/media/saayaHealthLogo.25018d29.webp"
-  },
-  {
-    "revision": "9014b234123db8aaab3b333cc613a9b3",
-    "url": "/static/media/scholarship.9014b234.png"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",

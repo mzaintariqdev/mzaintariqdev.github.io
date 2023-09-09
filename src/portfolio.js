@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/13eRu3uUah5PePuLu3G0XdVA2KI9jRKgS/view?usp=sharing",
+    "https://drive.google.com/file/d/1774lSq__fIA_w36FY1OGb-W1ZbfYFXxV/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -150,9 +150,22 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
+      company: "Moses Technologies Pvt Ltd",
+      companylogo: require("./assets/images/moses.png"),
+      date: "10 August 2021 – 10 February 2022",
+      desc:
+        "I work as a Software Engineer in a Remote Role for Full-stack Web development.",
+      descBullets: [
+        "My tasks are following",
+        "1.Developing UI/UX with the help of Reactjs and other Frontend Libraries",
+        "2.Developing backend using Nodejs using expressjs"
+      ]
+    },
+    {
+      role: "Software Engineer",
       company: "Walturn",
       companylogo: require("./assets/images/walturn.png"),
-      date: "10 August 2021 – Present",
+      date: "15 December 2021 – Present",
       desc:
         "I work as a Software Engineer in a Remote Role for New york Based Company for the Full-stack Web development and for mobile engineering.",
       descBullets: [

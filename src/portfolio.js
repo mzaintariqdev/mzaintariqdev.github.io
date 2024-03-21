@@ -12,10 +12,10 @@ const greeting = {
   username: "Zain Tariq",
   title: "Hi all, I'm Zain",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1e0u0JpfQ4yeNQx09WigwXrWCZGYvFL-C/view?usp=sharing",
+    "https://drive.google.com/file/d/12QUXWrDa53pDnbPBWPI1u9EEH1S9CGGw/view",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -154,26 +154,41 @@ const workExperiences = {
       companylogo: require("./assets/images/moses.png"),
       date: "10 August 2021 – 10 February 2022",
       desc:
-        "I work as a Software Engineer in a Remote Role for Full-stack Web development.",
+        "I worked here as a Software Engineer for Full-stack Web development.",
       descBullets: [
-        "My tasks are following",
-        "1.Developing UI/UX with the help of Reactjs and other Frontend Libraries",
-        "2.Developing backend using Nodejs using expressjs"
+        "My tasks were following",
+        "Developing UI/UX with the help of Reactjs and other Frontend Libraries",
+        "Developing backend using Nodejs using expressjs"
       ]
     },
     {
       role: "Software Engineer",
       company: "Walturn",
       companylogo: require("./assets/images/walturn.png"),
-      date: "15 December 2021 – Present",
+      date: "15 December 2021 – 30 September 2023",
       desc:
-        "I work as a Software Engineer in a Remote Role for New york Based Company for the Full-stack Web development and for mobile engineering.",
+        "I worked here as a Software Engineer for New york Based Company for the Full-stack Web development and for mobile engineering.",
+      descBullets: [
+        "My tasks were following",
+        "Developing UI/UX with the help of Reactjs and other Frontend Libraries",
+        "Developing backend using Nodejs using expressjs, nestjs and others",
+        "Project Planning",
+        "Client Handling"
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "GoOrderz",
+      companylogo: require("./assets/images/goorder.jpg"),
+      date: "1 October 2023 – Present",
+      desc:
+        "I work as a Software Engineer for European Based Company for the Web engineering.",
       descBullets: [
         "My tasks are following",
-        "1.Developing UI/UX with the help of Reactjs and other Frontend Libraries",
-        "2.Developing backend using Nodejs using expressjs, nestjs and others",
-        "3. Project Planning",
-        "4. Client Handling"
+        "Developing UI/UX with the help of Reactjs and other Frontend Libraries",
+        "Developing backend using Nodejs using expressjs, django and others",
+        "Project Planning",
+        "Client Handling"
       ]
     } //,
     // {

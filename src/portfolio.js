@@ -12,7 +12,7 @@ const greeting = {
   username: "Zain Tariq",
   title: "Hi all, I'm Zain",
   subTitle: emoji(
-    "A passionate Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Vuejs / Typescript / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/12QUXWrDa53pDnbPBWPI1u9EEH1S9CGGw/view",
@@ -67,6 +67,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
       skillName: "nodejs",
@@ -154,11 +158,11 @@ const workExperiences = {
       companylogo: require("./assets/images/moses.png"),
       date: "10 August 2021 – 10 February 2022",
       desc:
-        "I worked here as a Software Engineer for Full-stack Web development.",
+        "As a Full-Stack Software Engineer, I was responsible for developing and maintaining web applications, focusing on both frontend and backend development.",
       descBullets: [
-        "My tasks were following",
-        "Developing UI/UX with the help of Reactjs and other Frontend Libraries",
-        "Developing backend using Nodejs using expressjs"
+        "Implemented responsive and dynamic UI/UX designs using React.js and other modern frontend libraries",
+        "Developed robust backend services and APIs with Node.js and Express.js",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions"
       ]
     },
     {
@@ -167,46 +171,28 @@ const workExperiences = {
       companylogo: require("./assets/images/walturn.png"),
       date: "15 December 2021 – 30 September 2023",
       desc:
-        "I worked here as a Software Engineer for New york Based Company for the Full-stack Web development and for mobile engineering.",
+        "Worked as a Software Engineer for a New York-based company, focusing on web and mobile development projects.",
       descBullets: [
-        "My tasks were following",
-        "Developing UI/UX with the help of Reactjs and other Frontend Libraries",
-        "Developing backend using Nodejs using expressjs, nestjs and others",
-        "Project Planning",
-        "Client Handling"
+        "Designed and implemented UI/UX components using React.js, Vue.js, and TypeScript",
+        "Developed and maintained backend systems using Node.js, Express.js, and Nest.js",
+        "Led project planning sessions and managed project timelines",
+        "Handled client interactions and ensured their requirements were met efficiently"
       ]
     },
     {
       role: "Software Engineer",
       company: "GoOrderz",
       companylogo: require("./assets/images/goorder.jpg"),
-      date: "1 October 2023 – Present",
+      date: "1 October 2023 – 31 May 2024",
       desc:
-        "I work as a Software Engineer for European Based Company for the Web engineering.",
+        "Served as a Software Engineer for a European company, focusing on web application development.",
       descBullets: [
-        "My tasks are following",
-        "Developing UI/UX with the help of Reactjs and other Frontend Libraries",
-        "Developing backend using Nodejs using expressjs, django and others",
-        "Project Planning",
-        "Client Handling"
+        "Created and optimized user interfaces using React.js, Vue.js, and TypeScript",
+        "Built and maintained backend functionalities with Node.js and Express.js",
+        "Conducted project planning and management activities",
+        "Engaged with clients to gather requirements and provide technical solutions"
       ]
-    } //,
-    // {
-    //   role: "Front-End Developer",
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.png"),
-    //   date: "May 2017 – May 2018",
-    //   desc:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
+    }
   ]
 };
 
@@ -366,7 +352,7 @@ const contactInfo = {
   title: "Contact Me ☎️",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  // number: "+92-3144117288",
+  number: "+49 1521 6178059",
   email_address: "mzaintariqdev@gmail.com"
 };
 
